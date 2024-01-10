@@ -12,7 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header, footer {
+header, footer, h4, .inline-list {
     color: var(--txt-color);
 }
 
@@ -70,6 +70,7 @@ body {
 /* Hides answer / option buttons */
 #answer1, #answer2, #answer3, #answer4  {
     display: none;  
+    text-wrap: none;
 }
 
 /* Hides recipe and restaurant buttons */
@@ -78,10 +79,15 @@ body {
     
 }
 
-#answers {
+#answers{
     list-style: none;
 }
 
+
 .buttonDiv {
-    margin-top: 0px;
+    margin-top: 0%;
+}
+
+.inline-list {
+    display: inline-block;
 }
