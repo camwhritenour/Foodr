@@ -2,7 +2,7 @@
 var finalSelection = JSON.parse(localStorage.getItem("finalSelection")) || []
 
 // Function for displaying recently searched food items
-function renderHistory () {
+function renderHistory() {
     var recentlySearched = document.getElementById("recentlySearched")
     recentlySearched.textContent = ""
     for (i = 0; i < finalSelection.length; i++) {
@@ -49,13 +49,13 @@ async function searchRestaurantsWithFoodItem(foodItem) {
             'X-RapidAPI-Host': 'maps-data.p.rapidapi.com'
         }
     };
-    
+
     try {
         const response = await fetch(url, options);
         const result = await response.json();
         console.log(result);
         restaurantURL = 'https://' + result.data[0].website;
-        console.log (result.data[0].website)
+        console.log(result.data[0].website)
     } catch (error) {
         console.error(error);
     }

@@ -3,16 +3,19 @@
     --txt-color: azure;
     --border-color1: palevioletred;
     --border-color2: rgb(103, 149, 248);
-    --bg-color:  rgb(0, 0, 0, 0.6);
+    --bg-color: rgb(0, 0, 0, 0.6);
 
 }
 
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-header, footer, h4, .inline-list {
+header,
+footer,
+h4,
+.inline-list {
     color: var(--txt-color);
 }
 
@@ -63,22 +66,26 @@ body {
     border-style: solid;
     border-color: var(--border-color2);
     border-width: 3px;
-    
+
 
 }
 
 /* Hides answer / option buttons */
-#answer1, #answer2, #answer3, #answer4  {
-    display: none;  
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+    display: none;
 }
 
 /* Hides recipe and restaurant buttons */
-#recipe, #restaurant {
+#recipe,
+#restaurant {
     display: none;
-    
+
 }
 
-#answers{
+#answers {
     list-style: none;
 }
 
