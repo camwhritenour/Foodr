@@ -5,6 +5,7 @@ function renderHistory () {
     recentlySearched.textContent = ""
     for (i = 0; i < finalSelection.length; i++) {
         var li = document.createElement("li")
+        li.setAttribute("class", "inline-list")
         li.textContent = finalSelection[i]
         recentlySearched.appendChild(li)
         finalSelection = finalSelection.slice(-5);
@@ -67,6 +68,7 @@ var answer3El = document.querySelector("#answer3");
 var answer4El = document.querySelector("#answer4");
 var recipeEl = document.querySelector("#recipe");
 var restaurantEl = document.querySelector("#restaurant")
+var pastCravingsEl = document.querySelector("#past-cravings")
 
 
 /* Food Variables */
@@ -253,7 +255,9 @@ startQuizEl.addEventListener("click", function (event) {
         };
 
         surveyBoxEl.setAttribute("style", "border-style: solid; background: var(--bg-color);");
+
         quizEl.setAttribute("style", "height: 600px");
+        pastCravingsEl.setAttribute("style", "display: block;");
         answer1El.setAttribute("style", "display: block;");
         answer2El.setAttribute("style", "display: block;");
         answer3El.setAttribute("style", "display: block;");
