@@ -18,6 +18,22 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 To run Foodr, open up the webpage to see a short description about the application and instructions next to the header "foodr."  Below the header and description is the "Start" button which starts the quiz.  If a user wants to randomly generate food without running the quiz, then they can click the "Feed me!" button within the Quick Pick box below "Start."  After clicking "Start," the question "What kind of food are you craving?" appears.  After clicking one of the four food categories, then the next question "What sounds more appetizing?" appears with group options based on the previous answer.  After clicking one of the three group options, the final question "Are you looking for something heavy or light?" appears.  Clicking "Heavy" or "Light" displays a randomly generated food item which matches all three questions' parameters.  Below the final food item are "Recipe," "Restaurant," and "Restart" buttons.  While "Recipe" will open up a random generated recipe URL based on the food item, "Restaurant" will open up a local restaurant's URL which serves the food item.  Finally, "Restart" will reload the page back to the start screen.  As each food item is searched, a list of the most recently searched items will display below the "Start" and "Restart" buttons.  
 
+Attached is a screenshot before starting quiz:
+
+![Before Quiz Screenshot](./assets/images/Foodr%20Before%20Screenshot.png)
+
+Attached is a screenshot during quiz:
+
+![During Quiz Screenshot](./assets/images/Foodr%20During%20Screenshot.png)
+
+Attached is a screenshot after quiz:
+
+![After Quiz Screenshot](./assets/images/Foodr%20After%20Screenshot.png)
+
+## Deployed Site
+
+[Deployed Site](https://camwhritenour.github.io/Foodr/)
+
 ## Credits
 
 [Tyler Knapp](https://github.com/Tyler-KD)
