@@ -70,7 +70,6 @@ body {
 /* Hides answer / option buttons */
 #answer1, #answer2, #answer3, #answer4  {
     display: none;  
-    text-wrap: none;
 }
 
 /* Hides recipe and restaurant buttons */
