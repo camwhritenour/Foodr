@@ -7,11 +7,11 @@ function renderHistory () {
     recentlySearched.textContent = ""
     for (i = 0; i < finalSelection.length; i++) {
         var li = document.createElement("li")
-        li.setAttribute("class", "inline-list")
+        li.setAttribute("class", "list-inline-item")
         li.textContent = finalSelection[i]
         recentlySearched.appendChild(li)
         // If the length of finalSelection array is greater than 5, then slice selected elements
-        finalSelection = finalSelection.slice(-5);
+        finalSelection = finalSelection.slice(-3);
     }
 }
 
