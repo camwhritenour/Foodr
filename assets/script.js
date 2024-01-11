@@ -10,7 +10,7 @@ function renderHistory() {
         li.setAttribute("class", "list-inline-item")
         li.textContent = finalSelection[i]
         recentlySearched.appendChild(li)
-        // If the length of finalSelection array is greater than 5, then slice selected elements
+        // If the length of finalSelection array is greater than 3, then slice selected elements
         finalSelection = finalSelection.slice(-3);
     }
 }
